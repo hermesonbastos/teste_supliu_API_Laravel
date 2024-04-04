@@ -41,14 +41,12 @@ cd nome-do-projeto
 composer install
 ```
 
-6. **Crie um arquivo `.env` e configure as variáveis de ambiente, como banco de dados, chave de aplicação, etc.**
-
-7. **Configure o banco de dados(vou configurá-lo inicialmente para utilizar um banco SQLite, não se preocupe):**
+6. **Configure o banco de dados(vou configurá-lo inicialmente para utilizar um banco SQLite, não se preocupe):**
 
     * Edite o arquivo `.env` e configure as variáveis de conexão com o banco de dados.
     * Crie o banco de dados e as tabelas necessárias.
 
-8. **Crie as tabelas do banco de dados:**
+7. **Crie as tabelas do banco de dados:**
 
 ```
 php artisan migrate
