@@ -4,7 +4,7 @@ use App\Http\Controllers\AlbumController;
 use App\Http\Controllers\FaixaController;
 use Illuminate\Support\Facades\Route;
 
-/* helper que cria automaticamente:
+/* apiResource helper que cria automaticamente:
     - GET /api/albuns: Recupera todos os álbuns.
     - GET /api/albuns/{id}: Recupera um álbum específico pelo ID.
     - POST /api/albuns: Cria um novo álbum.
