@@ -12,11 +12,10 @@ use Illuminate\Support\Facades\Route;
     - DELETE /api/albuns/{id}: Exclui um álbum.
 */
 
-
 Route::apiResource('albuns', AlbumController::class);
 
 Route::apiResource('faixas', FaixaController::class);
+// buscar todas as faixas de um álbum específico
+Route::get('/albuns/{id}/faixas', [AlbumController::class, 'getFaixasByAlbumId']);
 
-Route::get('/albuns/search', [AlbumController::class, 'search']);
-
-Route::get('/faixas/search', [FaixaController::class, 'search']);
+Route::get('/with-faixas', [AlbumController::class, 'getAllAlbumsWithFaixas']);
