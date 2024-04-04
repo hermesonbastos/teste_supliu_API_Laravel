@@ -1,5 +1,23 @@
 ## API REST Laravel 10
 
+**Importante!**
+* Se quiser utilizar SQLite ao invés do MySQL (mais prático para testes), no seu arquivo `.env`, realize as seguintes configurações:
+* Comente tudo abaixo:
+```
+# DB_CONNECTION=mysql
+# DB_HOST=127.0.0.1
+# DB_PORT=3306
+# DB_DATABASE=discografia_api
+# DB_USERNAME=root
+# DB_PASSWORD=
+```
+* Adicione a seguinte configuração:
+```
+DB_CONNECTION=sqlite
+```
+* Agora é só rodar `php artisan migrate` na raiz do projeto para atualizar o banco de dados;
+* Execute `php artisan serve` para iniciar o projeto.
+
 **Descrição:**
 
 Esta API REST foi desenvolvida em Laravel 10 e representa meu primeiro projeto com essa tecnologia. Ela oferece endpoints para gerenciar álbuns e faixas musicais, com funcionalidades básicas de CRUD (Criar, Ler, Atualizar e Deletar).
