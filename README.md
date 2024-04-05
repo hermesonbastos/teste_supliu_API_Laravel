@@ -1,5 +1,15 @@
 ## API REST Laravel 10
 
+### Deploy no [Railway](https://railway.app/): [https://testesupliuapilaravel-production.up.railway.app/api/albuns](https://testesupliuapilaravel-production.up.railway.app/api/albuns) (Álbuns)
+![image](https://github.com/hermesonbastos/teste_supliu_API_Laravel/assets/93688208/48d539a3-9d7f-4285-9704-321e9d5f6bcb)
+* O Railway foi uma peça chave para a implantação desta API;
+* Com uma simples máquina gratuita consegui hospedar uma instância do MySQL;
+* Com simples configurações de database, a instância da API Laravel se comunica com o banco de dados;
+* Depois foi só fazer deploy do fron-end no [Netlify](https://www.netlify.com/);
+* E bazinga! Aplicação FullStack em Produção.
+* <strong>Obs</strong>: se quiser testar a API na sua máquina, bastar usar a branch main (SQLite), e não a deploy(MySQL)😉!
+
+
 **Importante!**
 * Se quiser utilizar SQLite ao invés do MySQL (mais prático para testes), no seu arquivo `.env`, realize as seguintes configurações:
 * Comente tudo abaixo:
