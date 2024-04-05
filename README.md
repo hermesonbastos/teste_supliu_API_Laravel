@@ -1,7 +1,8 @@
 ## API REST Laravel 10
 
 ### Deploy no [Railway](https://railway.app/): [https://testesupliuapilaravel-production.up.railway.app/api/albuns](https://testesupliuapilaravel-production.up.railway.app/api/albuns) (Álbuns)
-![image](https://github.com/hermesonbastos/teste_supliu_API_Laravel/assets/93688208/48d539a3-9d7f-4285-9704-321e9d5f6bcb)
+<img src="https://github.com/hermesonbastos/teste_supliu_API_Laravel/assets/93688208/033e05e0-efdd-4c3d-918d-1e98fce7e79a" width="700" />
+
 * O Railway foi uma peça chave para a implantação desta API;
 * Com uma simples máquina gratuita consegui hospedar uma instância do MySQL;
 * Com simples configurações de database, a instância da API Laravel se comunica com o banco de dados;
