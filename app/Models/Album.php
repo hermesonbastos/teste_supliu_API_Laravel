@@ -12,6 +12,7 @@ class Album extends Model
     protected $table = "albuns";
     protected $fillable = [
         "nome",
+        "cover",
         "ano",
     ];
 
